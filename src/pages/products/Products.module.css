@@ -59,7 +59,7 @@ input::placeholder {
 
 .modalContent {
     width: 800px;
-    height: 850px;
+    height: 1000px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -89,7 +89,7 @@ input::placeholder {
 }
 
 .modalButton {
-    width: 70px;
+    width: 93px;
     height: 30px;
     border-radius: 10px;
     border: 1px solid #D4D4D4;
@@ -99,7 +99,7 @@ input::placeholder {
 }
 
 .modalButtonClick {
-    width: 70px;
+    width: 93px;
     height: 30px;
     border-radius: 10px;
     border: 1px solid #005600;
