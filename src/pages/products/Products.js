@@ -237,21 +237,18 @@ function Products () {
                                     <div style={{ display: 'flex', gap: '10px' }}>
                                         <button
                                             className={`${styles.modalButton} ${filterSize === 8 ? styles.modalButtonClick : ''}`}
-                                            style={{ width: '80px' }}
                                             onClick={() => toggleValue(filterSize, 8, setFilterSize)}
                                         >
                                             8mm미만
                                         </button>
                                         <button
                                             className={`${styles.modalButton} ${filterSize === 10 ? styles.modalButtonClick : ''}`}
-                                            style={{ width: '80px' }}
                                             onClick={() => toggleValue(filterSize, 10, setFilterSize)}
                                         >
                                             8~13mm
                                         </button>
                                         <button
                                             className={`${styles.modalButton} ${filterSize === 13 ? styles.modalButtonClick : ''}`}
-                                            style={{ width: '80px' }}
                                             onClick={() => toggleValue(filterSize, 13, setFilterSize)}
                                         >
                                             13mm이상
@@ -261,46 +258,46 @@ function Products () {
                                 <>
                                     <p className={styles.modalText}>제품기능</p>
                                     <hr className={styles.modalHr} />
-                                    <div style={{ display: 'flex', gap: '10px' }}>
+                                    <div style={{ display: 'flex', gap: '8px', width:'700px', flexWrap:"wrap" }}>
                                         <button
-                                            className={`${styles.modalButton} ${filterEffi === '관절' ? styles.modalButtonClick : ''}`}
-                                            onClick={() => toggleValue(filterEffi, '관절', setFilterEffi)}
+                                            className={`${styles.modalButton} ${filterEffi === '골격강화' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '골격강화', setFilterEffi)}
                                         >
                                             관절
                                         </button>
                                         <button
-                                            className={`${styles.modalButton} ${filterEffi === '면역' ? styles.modalButtonClick : ''}`}
-                                            onClick={() => toggleValue(filterEffi, '면역', setFilterEffi)}
+                                            className={`${styles.modalButton} ${filterEffi === '관절강화' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '관절강화', setFilterEffi)}
                                         >
                                             면역
                                         </button>
                                         <button
-                                            className={`${styles.modalButton} ${filterEffi === '식욕증진' ? styles.modalButtonClick : ''}`}
-                                            onClick={() => toggleValue(filterEffi, '식욕증진', setFilterEffi)}
+                                            className={`${styles.modalButton} ${filterEffi === '구간건강' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '구간건강', setFilterEffi)}
                                         >
                                             식욕증진
                                         </button>
                                         <button
-                                            className={`${styles.modalButton} ${filterEffi === '저알러지' ? styles.modalButtonClick : ''}`}
-                                            onClick={() => toggleValue(filterEffi, '저알러지', setFilterEffi)}
+                                            className={`${styles.modalButton} ${filterEffi === '근육강화' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '근육강화', setFilterEffi)}
                                         >
                                             저알러지
                                         </button>
                                         <button
-                                            className={`${styles.modalButton} ${filterEffi === '영양공급' ? styles.modalButtonClick : ''}`}
-                                            onClick={() => toggleValue(filterEffi, '영양공급', setFilterEffi)}
+                                            className={`${styles.modalButton} ${filterEffi === '근육발달' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '근육발달', setFilterEffi)}
                                         >
                                             영양공급
                                         </button>
                                         <button
-                                            className={`${styles.modalButton} ${filterEffi === '비타민' ? styles.modalButtonClick : ''}`}
-                                            onClick={() => toggleValue(filterEffi, '비타민', setFilterEffi)}
+                                            className={`${styles.modalButton} ${filterEffi === '기력회복' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '기력회복', setFilterEffi)}
                                         >
                                             비타민
                                         </button>
                                         <button
-                                            className={`${styles.modalButton} ${filterEffi === '다이어트' ? styles.modalButtonClick : ''}`}
-                                            onClick={() => toggleValue(filterEffi, '다이어트', setFilterEffi)}
+                                            className={`${styles.modalButton} ${filterEffi === '눈건강' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '눈건강', setFilterEffi)}
                                         >
                                             다이어트
                                         </button>
@@ -309,6 +306,132 @@ function Products () {
                                             onClick={() => toggleValue(filterEffi, '눈물자국', setFilterEffi)}
                                         >
                                             눈물자국
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '노화방지' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '노화방지', setFilterEffi)}
+                                        >
+                                            노화방지
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '다이어트' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '다이어트', setFilterEffi)}
+                                        >
+                                            다이어트
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '면역력강화' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '면역력강화', setFilterEffi)}
+                                        >
+                                            면역력강화
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '비뇨' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '비뇨', setFilterEffi)}
+                                        >
+                                            비뇨
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '성장발달' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '성장발달', setFilterEffi)}
+                                        >
+                                            성장발달
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '스트레스완화' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '스트레스완화', setFilterEffi)}
+                                        >
+                                            스트레스완화
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '심장건강' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '심장건강', setFilterEffi)}
+                                        >
+                                            심장건강
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '식욕증진' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '식욕증진', setFilterEffi)}
+                                        >
+                                            식욕증진
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '연골강화' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '연골강화', setFilterEffi)}
+                                        >
+                                            연골강화
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '영양공급' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '영양공급', setFilterEffi)}
+                                        >
+                                            영양공급
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '요로' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '요로', setFilterEffi)}
+                                        >
+                                            요로
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '운동효과증진' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '운동효과증진', setFilterEffi)}
+                                        >
+                                            운동효과증진
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '음수량증진' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '음수량증진', setFilterEffi)}
+                                        >
+                                            음수량증진
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '저알러지' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '저알러지', setFilterEffi)}
+                                        >
+                                            저알러지
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '장건강' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '장건강', setFilterEffi)}
+                                        >
+                                            장건강
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '종합비타민' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '종합비타민', setFilterEffi)}
+                                        >
+                                            종합비타민
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '피모개선' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '피모개선', setFilterEffi)}
+                                        >
+                                            피모개선
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '항산화' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '항산화', setFilterEffi)}
+                                        >
+                                            항산화
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '혈액건강' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '혈액건강', setFilterEffi)}
+                                        >
+                                            혈액건강
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '혈액순환' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '혈액순환', setFilterEffi)}
+                                        >
+                                            혈액순환
+                                        </button>
+                                        <button
+                                            className={`${styles.modalButton} ${filterEffi === '활력증진' ? styles.modalButtonClick : ''}`}
+                                            onClick={() => toggleValue(filterEffi, '활력증진', setFilterEffi)}
+                                        >
+                                            활력증진
                                         </button>
                                     </div>
                                 </>
